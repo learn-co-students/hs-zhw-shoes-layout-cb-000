@@ -24,4 +24,65 @@
 
 /* Posititoning Classes */
 
+#wood .wrapper .milk_text{
+  margin-top: 20px;
+  padding-bottom: 5px;
+}
 
+.col-1{
+  width:635px;
+  float:left;
+  margin-right:15px;
+  max-height:615px;
+}
+
+.col-2{
+  width:310px;
+  float:right;
+}
+
+.col-3{
+  width:32.3%;
+  margin-top:20px;
+  float:left;
+  margin-right:1.5%;
+  margin-bottom:20px;
+}
+
+.col-4{
+  width:32.3%;
+  float:left;
+  margin-top:20px;
+  margin-right:1.5%;
+  margin-bottom:20px;
+}
+.col-5{
+  width:32.3%;
+  float:left;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+.col-6{
+  float:left;
+  width:310px;
+  margin-bottom:20px;
+}
+
+.col-7{
+  width:330px;
+  float:left;
+  padding-left:15px;
+  margin-bottom:20px;
+}
+
+.col-8{
+  width:318px;
+  float:left;
+  padding-left:15px;
+  margin-bottom:20px;
+}
+
+#details .wrapper .border_right{
+  padding-right:5px;
+}
