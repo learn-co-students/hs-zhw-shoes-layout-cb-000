@@ -26,12 +26,14 @@
 
 #wood .wrapper .milk_text{
   margin-top: 20px;
+  padding-bottom: 5px;
 }
 
 .col-1{
   width:635px;
   float:left;
   margin-right:15px;
+  max-height:615px;
 }
 
 .col-2{
@@ -63,12 +65,12 @@
 
 .col-6{
   float:left;
-  width:318px;
+  width:310px;
   margin-bottom:20px;
 }
 
 .col-7{
-  width:318px;
+  width:330px;
   float:left;
   padding-left:15px;
   margin-bottom:20px;
@@ -82,5 +84,5 @@
 }
 
 #details .wrapper .border_right{
-  padding-right:20px;
+  padding-right:5px;
 }
