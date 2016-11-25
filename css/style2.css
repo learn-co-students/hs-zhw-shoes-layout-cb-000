@@ -1,0 +1,118 @@
+/********** Web Fonts **********/
+ /* font-family: 'Elsie Swash Caps', cursive; */
+ @import url('https://fonts.googleapis.com/css?family=Elsie+Swash+Caps');
+ /* font-family: 'Clicker Script', cursive; */
+@import url('https://fonts.googleapis.com/css?family=Clicker+Script');
+/* scale all images, and media to accomodate responsive layout. */
+
+/* prevent the verify image on contact page from stretching */
+
+
+/********** Global **********/
+
+
+
+*	{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+
+
+/********** Header **********/
+
+	/********** Nav Bar **********/
+
+#nav_bar .wrapper{
+  background:  F2F2F2;
+  float:both;
+  border: pink solid 1px;
+  height:100px;
+  position:relative;
+  width:100%
+
+
+
+}
+#nav_bar .wrapper div{
+  width: 12.5%;
+  border: red solid 1px;
+
+  display: inline;
+  position: relative;
+  text-align: center;
+
+
+
+
+}
+
+			/* gradient */
+			 /* Old browsers */
+		 /* FF3.6+ */
+			 /* Chrome,Safari4+ */
+			 /* Chrome10+,Safari5.1+ */
+			 /* Opera 11.10+ */
+			 /* IE10+ */
+			 /* W3C */
+		}
+
+	/********** Logo **********/
+  #logo {
+    width : auto;
+    height: 100px;
+    background: #F8F8F8;
+
+
+  }
+  #logo h1{
+    font-family: 'Clicker Script', cursive;
+    display: inline;
+  }
+  #logo h2 {
+    font-family: 'Elsie Swash Caps', cursive;
+    display: inline;
+  }
+
+		/* gradient */
+		/* Old browsers */
+		 /* FF3.6+ */
+		 /* Chrome,Safari4+ */
+	 /* Chrome10+,Safari5.1+ */
+		/* Opera 11.10+ */
+		 /* IE10+ */
+	 /* W3C */
+
+
+
+
+/********** Social Bar **********/
+
+
+
+
+/********** Content Area **********/
+
+
+
+	/********** Sections **********/
+
+
+/********** Details **********/
+
+
+	/* gradient */
+	 /* Old browsers */
+	 /* FF3.6+ */
+ /* Chrome,Safari4+ */
+	/* Chrome10+,Safari5.1+ */
+ /* Opera 11.10+ */
+/* IE10+ */
+ /* W3C */
+
+
+
+
+/********** Footer **********/
