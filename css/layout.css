@@ -22,24 +22,27 @@
   clear: both;
 }
 
-.first {
-  margin-left: 0;
-}
 /* Positioning Classes */
 .col1 {
-  width: 320px;
   float: left;
+  width: 313px;
+  margin-left: 10px;
 }
 
 .col2 {
-  width: 640px;
   float: left;
+  width: 636px;
+  margin-left: 10px;
 }
 
 .col3 {
   width: 960px;
 }
 
+[class*="col"] .first {
+  margin-left: 0;
+}
+
 section {
-  /*margin: 10px 10px; */
+  margin-bottom: :10px;
 }
