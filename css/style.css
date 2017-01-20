@@ -14,9 +14,55 @@ img.verif_img {
 	height:30px;
 	vertical-align: bottom;
 }
+/*LAYOUT*/
+
+[class*="col-"] {
+  margin-left: 2%;
+}
+
+.first {
+  margin-left: 0;
+}
+
+.col-3 {
+  
+}
+
+.col-2 {
+  float: left;
+  width: 66%;
+}
+
+.col-1 {
+  float: left;
+  width: 32%;
+}
 
 /********** Global **********/
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear:both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+.featured {
+  background: none;
+  margin-bottom: 20px;
+}
 
+.archive-list {
+  height: 100%;
+}
+
+.deals {
+  background: none;
+}
+
+#adding-padding {
+  padding-bottom: 23px;
+}
 body {
 	background: url(../images/handmadepaper.png);
 }
