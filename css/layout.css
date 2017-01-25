@@ -24,4 +24,26 @@
 
 /* Posititoning Classes */
 
+.featured {
+  margin: 20px 0;
+}
 
+.col-1 {
+  float: left;
+  width: 32%;
+  margin-left: 2%;
+}
+
+.col-2 {
+  width: 66%;
+  float: left;
+  margin-left: 2%;
+}
+
+.col-3 {
+  width: 100%;
+}
+
+.first {
+  margin-left: 0;
+}
