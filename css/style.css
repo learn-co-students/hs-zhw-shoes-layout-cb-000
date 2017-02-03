@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
 /* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
+img, video, audio, iframe, table, form {
 	width:100%; /* IE */
 	max-width: 100%; /* FF, Safari, Chrome */
 }
@@ -303,3 +303,63 @@ footer {
 	}
 
 /* code examples copyright Jonathan Grover 2012 */
+
+/*---Columns---*/
+
+.col-1{
+	float:left;
+  width:32%;
+}
+
+.col-2{
+	float:left;
+  width:62%;
+}
+
+.col-3{
+text-align: center;
+}
+
+.clearfix{
+	clear:both;
+}
+
+.three{
+	display:inline-block;
+	width:300px;
+	height:350px;
+	margin-top:40px;
+	padding:12px;
+	margin-left:1%;
+}
+
+.inline{
+	display:inline-block;
+	margin-left:20px;
+}
+
+.archive{
+	height:585px;
+	margin-left:25px;
+}
+
+.border_right{
+	display:inline-block;
+	
+	margin-right:5%;
+	margin-top:10px;
+}
+
+.border_right p, h3{
+	margin-top:0px;
+	text-align: center;
+}
+
+.social{
+	position: absolute;
+	text-align: center;
+}
+
+.deals{
+
+}
