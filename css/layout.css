@@ -1,12 +1,48 @@
 /********** Fixes **********/
 
+
+img, video, audio {
+  max-width: 100%;
+}
+
+#logo {
+  margin: 0 0 0 0;
+  width: 100%;
+}
+
+
+
+
+
+
+/* Posititoning Classes */
 * {
-  margin:0;
-  padding:0;
-  border:0;
-  box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+}
+
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+
+}
+
+.col-1 {
+  float: left;
+  width: 32%;
+  background: white;
+}
+
+.col-2 {
+  float: left;
+  width: 66%;
+  background: white;
+}
+
+.col-3 {
+
 }
 
 .clearfix:after {
@@ -18,10 +54,29 @@
   line-height: 0;
 }
 
-.clear {
-  clear: both;
+[class*="col-"] {
+  margin-left: 2%;
 }
 
-/* Posititoning Classes */
+.first {
+  margin-left: 0%;
+}
 
+section {
+  padding: 20px;
+  margin-bottom: 20px;
+}
 
+#social {
+  position: fixed;
+  top: 200px;
+  right: 20px;
+  width: 40px;
+  z-index: 1;
+}
+
+#social a {
+  display: block;
+  width: 40px;
+  height: 40px;
+}
