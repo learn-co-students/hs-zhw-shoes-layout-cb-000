@@ -24,4 +24,34 @@
 
 /* Posititoning Classes */
 
+.wrapper {
+  width: 98%;
+  margin: 0 auto;
 
+}
+
+
+.col-1 {
+  float: left;
+  width: 32%;
+  margin-left: 2%;
+}
+
+.col-2 {
+  float: left;
+  width: 66%;
+}
+
+.col-3 {
+  width: 98%;
+}
+
+
+.first {
+  margin-left: 0%;
+}
+
+/*wrapper for deals*/
+#shoes {
+  margin-top: 20px;
+}
