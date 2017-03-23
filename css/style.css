@@ -134,6 +134,55 @@ iframe {
 	height: 415px;
 }
 
+.shadow .featured img {
+
+	float: left;
+}
+/********** Columns **********/
+
+.col-1 {
+	float: left;
+	width: 32%;
+}
+
+.col-2 {
+	float: left;
+	width: 66%;
+}
+
+.col-3	{
+
+}
+
+[class*="col-"] {
+	margin-left: 2%;
+}
+
+.first {
+	margin-left: 0%;
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.testy	{
+	position: relative;
+	top: 380px;
+}
+/********** Section **********/
+
+section {
+	padding: 20px;
+	margin-bottom: 20px;
+}
+/********** Media **********/
+
+img, video, audio {
+	max-width: 100%;
+}
 /********** Header **********/
 
 	/********** Nav Bar **********/
