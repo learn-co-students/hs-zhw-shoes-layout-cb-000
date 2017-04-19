@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
 /* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
+img, video, audio, iframe, table, form {
 	width:100%; /* IE */
 	max-width: 100%; /* FF, Safari, Chrome */
 }
@@ -108,10 +108,64 @@ iframe {
 .wrapper {
 	width: 960px;
 	margin: 0 auto;
+ background: hidden;
 }
 
 .shadow {
+
 	box-shadow: 0 3px 10px #333;
+}
+
+.row1col1 {
+	display: inline-block;
+	height: auto;
+	float:left;
+	width: 70%;
+	margin: 0 10px 20px;
+}
+
+.row1col2 {
+	display: inline-block;
+	height: auto;
+	float:left;
+	width: 25%;
+	margin: 0 10px 20px;
+}
+
+.row2col1 {
+	float:left;
+	width: 31%;
+	margin: 0 10px;
+}
+
+.row2col2 {
+	float:left;
+	width: 31%;
+	margin: 0 10px;
+}
+
+.row2col3 {
+	float:left;
+	width: 31%;
+	margin: 0 10px;
+}
+
+.row3col1 {
+	float:left;
+	width: 31%;
+	margin: 0 10px;
+}
+
+.row3col2 {
+	float:left;
+	width: 31%;
+	margin: 0 10px;
+}
+
+.row3col3 {
+	float:left;
+	width: 31%;
+	margin: 0 10px;
 }
 
 .milk_text {
@@ -122,8 +176,10 @@ iframe {
 }
 
 .border_right {
+	display:inline;
 	border-right: 1px dotted #ccc;
 	padding-right: 20px;
+
 }
 
 .thumbs_up {
@@ -150,6 +206,7 @@ iframe {
 	}
 
 	#nav_bar nav {
+		display: inline;
 		border-left: 1px solid #ccc;
 	}
 
@@ -268,6 +325,7 @@ iframe {
 
 #details {
 	clear:both;
+	display: inline;
 	padding: 20px 10px;
 	/* gradient */
 	background: rgb(229,229,229); /* Old browsers */
