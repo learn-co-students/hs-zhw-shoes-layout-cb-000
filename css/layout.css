@@ -24,4 +24,29 @@
 
 /* Posititoning Classes */
 
+section {
+  margin: 1%;
+}
 
+.col-1-big {
+  float:left;
+  width: 64.6%
+}
+.col-2 {
+  float:right;
+  width: 31.3%;
+  padding-bottom: 1.75em;  
+}
+.col-sml {
+  float:left;
+  width: 31.3%;
+}
+
+.col-smr {
+  float: right;
+  width: 31.3%;
+}
+
+* {
+  box-sizing:border-box;
+}
