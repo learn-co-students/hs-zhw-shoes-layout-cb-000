@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
 /* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
+img, video, audio, iframe, table, form {
 	width:100%; /* IE */
 	max-width: 100%; /* FF, Safari, Chrome */
 }
@@ -103,11 +103,6 @@ iframe {
 	margin: 0;
 	overflow: hidden;
 	height: 353px;
-}
-
-.wrapper {
-	width: 960px;
-	margin: 0 auto;
 }
 
 .shadow {
@@ -257,6 +252,8 @@ iframe {
 	section {
 		padding: 20px;
 		background: white;
+		position: relative;
+		margin-bottom: 20px;
 	}
 
 	section a {
@@ -268,7 +265,9 @@ iframe {
 
 #details {
 	clear:both;
-	padding: 20px 10px;
+	padding: 20px 200px;
+	text-align: left;
+	margin-bottom: 0px;
 	/* gradient */
 	background: rgb(229,229,229); /* Old browsers */
 	background: -moz-linear-gradient(top,  rgba(229,229,229,1) 0%, rgba(255,255,255,1) 99%); /* FF3.6+ */
@@ -295,6 +294,7 @@ footer {
 	font-size: 10px;
 	color: #555;
 	padding: 10px 0 20px;
+	background: #ccc;
 }
 
 	footer a {
@@ -303,3 +303,51 @@ footer {
 	}
 
 /* code examples copyright Jonathan Grover 2012 */
+
+
+/********** Layout ***********/
+* {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.col-1 {
+	float: left;
+	width: 32%;
+}
+
+.col-1a {
+	float: right;
+	width: 32%;
+}
+
+.col-2 {
+	float: left;
+	width: 66%;
+}
+
+.col-3 {
+}
+
+[class*="col-"] {
+	margin-left: 2%;
+}
+
+.first {
+	margin-left: 0%;
+}
+
+#deals {
+	margin-top: 20px;
+	clear:both;
+}
+
+#archive {
+	padding-bottom: 22px;
+}
