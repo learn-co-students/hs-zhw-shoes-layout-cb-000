@@ -9,6 +9,22 @@
   -moz-box-sizing: border-box;
 }
 
+.col-1 {
+  width: 32.2%;
+  float: left;
+  margin-left: 1.6%;
+  margin-bottom: 1.6%;
+}
+
+.col-1.first {
+  margin-left: 0;
+}
+
+.col-2 {
+  width: 65.8%;
+  float: left;
+}
+
 .clearfix:after {
   content: ".";
   display: block;
