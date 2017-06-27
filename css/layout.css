@@ -23,5 +23,62 @@
 }
 
 /* Posititoning Classes */
+.col-1 {
+  display:inline-block;
+  width: 31.5%;
+  margin-top: 2%;
+}
 
+.col-2 {
+  display:inline-block;
+  width: 31.5%;
+  margin-top: 2%;
+}
 
+.col-3 {
+  display: inline-block;
+ width: 31.5%;
+ margin-top: 2%;
+}
+
+[class*="col-"] {
+  margin-left: 2%;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+
+.first {
+  margin-left: 0;
+}
+
+.col-feature {
+  display: inline-block;
+  width: 66%;
+}
+
+.col-archive {
+  display: inline-block;
+  width: 31%
+}
+
+.col-contact {
+  display: inline-block;
+  width: 31%;
+}
+
+.col-links {
+  display: inline-block;
+  width: 31%
+}
+
+.col-follow {
+  display: inline-block;
+  width: 31%
+}
