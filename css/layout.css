@@ -1,4 +1,4 @@
-/********** Fixes **********/
+ /********** Fixes **********/
 
 * {
   margin:0;
@@ -24,4 +24,31 @@
 
 /* Posititoning Classes */
 
+.col-1 {
+  float: left;
+  width: 32%;
+  margin-left: 16px;
+  /* background: #ccc; */
+}
 
+.col-2 {
+  float: left;
+  width: 66%;
+  /* background: #ccc; */
+}
+
+.col-3 {
+  background: #ccc;
+}
+
+.first {
+  margin-left: 0%;
+}
+
+#archive {
+  height: 600px;
+}
+
+#deals {
+  margin-top: 20px;
+}
