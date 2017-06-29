@@ -19,9 +19,36 @@
 }
 
 .clear {
-  clear: both;
+  clear:both;
 }
 
 /* Posititoning Classes */
 
+
+.leftTwoThirds{
+  width:59%;
+  margin: 2%;
+  padding-bottom: 5%;
+  float:left;
+}
+
+.leftThird
+{
+ width: 20%;
+ margin: 2%;
+ float:left;
+ padding-bottom: 4%;
+}
+
+.middle {
+ width: 32%;
+ margin: 2%;
+ float:left;
+}
+
+.right {
+  width:32%;
+  margin: 2%;
+  float:left;
+}
 
