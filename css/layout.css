@@ -1,3 +1,5 @@
+/* ZFW Layout.CSS */
+
 /********** Fixes **********/
 
 * {
@@ -24,4 +26,36 @@
 
 /* Posititoning Classes */
 
+.border_right {
+  float: left;
+  width: 32%;
+  padding-left: 10px;
+}
 
+.col_left {
+  float: left;
+  width: 635px;
+}
+
+.col_right {
+  float: left;
+  width: 310px;
+  margin-left: 15px;
+}
+
+.one {
+  float: left;
+  width: 310px;
+  margin-right: 15px;
+}
+
+.two {
+  float: left;
+  width: 310px;
+}
+
+.three {
+  float: left;
+  width: 310px;
+  margin-left: 15px;
+}
