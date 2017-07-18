@@ -24,4 +24,25 @@
 
 /* Posititoning Classes */
 
+.col-1 {
+  float: left;
+  width: 31.9%;
+  margin-left: 20px;
+}
 
+.col-2 {
+  float: left;
+  width: 66%;
+}
+
+.first {
+  margin-left: 0%;
+}
+
+#archive {
+  height: 594px;
+}
+
+#shoes {
+  margin-top: 20px;
+}
