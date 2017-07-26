@@ -24,4 +24,18 @@
 
 /* Posititoning Classes */
 
+.col-1 {
+  width: 100%;
+  display: inline-block;
+}
 
+.col-2 {
+  width: 31.33%;
+  display: inline-block;
+  clear: both;
+}
+
+.col-3 {
+  width: 64.66%;
+  display: inline-block;
+}
