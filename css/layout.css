@@ -27,15 +27,28 @@
 .col-1 {
   width: 100%;
   display: inline-block;
+  
 }
 
 .col-2 {
-  width: 31.33%;
+  width: 32.33%;
   display: inline-block;
-  clear: both;
+  margin: 0 0 2% 0;
+  max-height: 585px;
+  float: left;
 }
 
 .col-3 {
   width: 64.66%;
   display: inline-block;
+  float: left;
+  margin: 0 2% 2% 0;
 }
+
+.col-4 {
+  width: 31.33%;
+  display: inline-block;
+  margin-right: 2%;
+  float: left;
+}
+
