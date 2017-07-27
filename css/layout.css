@@ -35,6 +35,7 @@
   display: inline;
   float: left;
   margin: 1%;
+  max-height: 585px;
 }
 
 .col-3 {
@@ -43,7 +44,6 @@
   float: left;
   margin: 1%;
 }
-
 
 
 
