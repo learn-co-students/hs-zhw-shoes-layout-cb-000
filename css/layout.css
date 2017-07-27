@@ -25,30 +25,27 @@
 /* Posititoning Classes */
 
 .col-1 {
-  width: 100%;
+  width: 98%;
   display: inline-block;
-  
+  margin: 1%;
 }
 
 .col-2 {
-  width: 32.33%;
-  display: inline-block;
-  margin: 0 0 2% 0;
-  max-height: 585px;
+  width: 31.3333%;
+  display: inline;
   float: left;
+  margin: 1%;
 }
 
 .col-3 {
   width: 64.66%;
   display: inline-block;
   float: left;
-  margin: 0 2% 2% 0;
+  margin: 1%;
 }
 
-.col-4 {
-  width: 31.33%;
-  display: inline-block;
-  margin-right: 2%;
-  float: left;
-}
+
+
+
+
 
