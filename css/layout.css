@@ -24,4 +24,36 @@
 
 /* Posititoning Classes */
 
+.border_right {
+	float: left;
+	width: 32%;
+	padding-left: 10px;
+}
 
+.col-left {
+	float: left;
+	width: 635px;
+}
+
+.col-right {
+float: left;
+width: 310px;
+margin-left: 15px;
+}
+
+.un {
+	float: left;
+	width: 310px;
+	margin-right: 15px;
+}
+
+.deux {
+	float: left;
+	width: 310px;
+}
+
+.trois {
+	float: left;
+	width: 310px;
+	margin-left: 15px;
+}
