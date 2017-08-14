@@ -23,5 +23,34 @@
 }
 
 /* Posititoning Classes */
+.brand {
+  width: 64%;
+  float: left;
+  margin-right: 2%;
+}
 
+.archive {
+  width:32%;
+  float: right;
+  margin-left: 2%;
+}
 
+.deal-1 {
+  width: 30.6666667%;
+  float: left;
+  margin-top: 20px;
+}
+
+.deal-2 {
+  width: 30.6666667%;
+  float: left;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.deal-3 {
+  width: 30.6666667%;
+  float: right;
+  margin-top: 15px;
+  margin-left: 20px;
+}
