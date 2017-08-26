@@ -10,7 +10,8 @@
 }
 
 .clearfix:after {
-  content: ".";
+  /* content: ""; */
+   content: ".";
   display: block;
   clear: both;
   visibility: hidden;
@@ -24,4 +25,22 @@
 
 /* Posititoning Classes */
 
+.col-1 {
+  float: left;
+  width: 32%;
+  margin-left: 2%;
+}
 
+.col-2 {
+  float: left;
+  width: 66%;
+}
+
+.nomargin {
+  margin-left: 0;
+}
+
+
+#featuredArchive {
+  margin-bottom: 1em;
+}
