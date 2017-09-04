@@ -3,9 +3,35 @@
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
 /* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
+img, video, audio, iframe, table, form {
 	width:100%; /* IE */
 	max-width: 100%; /* FF, Safari, Chrome */
+}
+
+#featuredtitle {
+	margin-top: .5em;
+}
+
+* {
+  margin:0;
+  padding:0;
+  border:0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+
+.clear {
+  clear: both;
 }
 
 /* prevent the verify image on contact page from stretching */
@@ -13,6 +39,41 @@ img.verif_img {
 	width: 50px;
 	height:30px;
 	vertical-align: bottom;
+}
+
+.col-1 {
+	float: left;
+}
+
+.col-2 {
+	float: left;
+	width: 66%;
+}
+
+.col-3 {
+	float: left;
+	width: 32%;
+	display: inline-block;
+}
+
+[class*="col-"] {
+	margin-left: 2%;
+	display: inline-block;
+	margin-top: .25em;
+	margin-bottom: 1em;
+}
+
+.first {
+	margin-left: 0%;
+}
+
+.follow {
+	positon: relative;
+	top: 30px;
+}
+
+#ladybug {
+	float:left;
 }
 
 /********** Global **********/
@@ -42,7 +103,7 @@ figure {
 	margin:0 0 10px;
 }
 
-	figcaption {
+figcaption {
 		font: 12px 'Elsie Swash Caps', cursive;
 		color: #777;
 		text-align: right;
