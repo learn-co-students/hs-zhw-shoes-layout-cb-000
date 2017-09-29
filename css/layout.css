@@ -24,4 +24,32 @@
 
 /* Posititoning Classes */
 
+.one-third-left {
+  float: left;
+  width: 32.33%;
+  margin-right: 1%;
+}
 
+.one-third-right {
+  float: left;
+  width: 33.33%;
+}
+
+.two-thirds {
+  float: left;
+  width: 65.66%;
+  margin-right: 1%;
+}
+
+.top-thirds {
+  float: left;
+  width: 100%;
+}
+
+.deal {
+  margin-top: 10px;
+  height: 350px;
+  /*
+  overflow: hidden;
+  */
+}
