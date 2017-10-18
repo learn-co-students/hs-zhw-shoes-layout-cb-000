@@ -23,5 +23,42 @@
 }
 
 /* Posititoning Classes */
+.shadow {
+  margin: 5px;
+}
 
+.archive {
+  margin: 5px;
+  padding: 18px;
+  position: relative;
+  bottom: 5px;
+}
 
+#col-1{
+  width: 31%;
+  float: left;
+  margin: 8px 10px;
+}
+
+#col-2 {
+  width: 65%;
+  float: left;
+}
+
+#col-3{
+  width: 98%;
+}
+
+.border_right{
+  margin: 5px;
+  padding: 0 20px;
+}
+
+.last_contact {
+  padding: 0 20px;
+}
+
+.milk_text {
+  position: relative;
+  left: 6px;
+}
