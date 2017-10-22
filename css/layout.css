@@ -9,6 +9,28 @@
   -moz-box-sizing: border-box;
 }
 
+.col-1 {
+  width: 32%;
+  float: left
+}
+
+.col-2 {
+  width: 64%;
+  float: left
+}
+
+.col-3 {
+  float: left
+}
+
+[class*="col-"] {
+  margin-left: 2%;
+}
+
+.first {
+  margin-left: 0%;
+}
+
 .clearfix:after {
   content: ".";
   display: block;
@@ -22,6 +44,8 @@
   clear: both;
 }
 
+.archive a {
+  font-size: 0.25em;
+}
+
 /* Posititoning Classes */
-
-
