@@ -23,5 +23,33 @@
 }
 
 /* Posititoning Classes */
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
+	padding: 0 45px 20px;
+}
 
+#social {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
 
+.col-1 {
+  float: left;
+  width: 30%;
+  margin: 5px 5px 5px;
+}
+
+.col-2 {
+  float: left;
+  width: 61%;
+  margin: 5px 5px 5px;
+}
+
+.col-3 {
+  float: left;
+  width: 93%
+
+}
