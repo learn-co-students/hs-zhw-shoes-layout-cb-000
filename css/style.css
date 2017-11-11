@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
 /* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
+img, video, audio, iframe, table, form {
 	width:100%; /* IE */
 	max-width: 100%; /* FF, Safari, Chrome */
 }
@@ -31,6 +31,7 @@ ul, ol {
 
 li {
 	margin-left: 20px;
+	font-size: 14px;
 }
 
 p, address {
@@ -139,6 +140,7 @@ iframe {
 	/********** Nav Bar **********/
 
 	#nav_bar {
+
 		position: fixed;
 		top: 0;
 		left: 0;
@@ -147,6 +149,7 @@ iframe {
 		background: url(../images/header-fade.gif);
 		border-bottom: 1px solid #ccc;
 		text-align: center;
+
 	}
 
 	#nav_bar nav {
@@ -263,6 +266,7 @@ iframe {
 		color: #555;
 		text-decoration: underline;
 	}
+
 
 /********** Details **********/
 
