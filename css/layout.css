@@ -24,4 +24,27 @@
 
 /* Posititoning Classes */
 
+.col-1 {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+}
 
+.span2 {
+  width: 66%;
+  float: left;
+  padding-bottom: 28px;
+  display: table-cell;
+}
+
+
+.span1 {
+  width: 32%;
+  float: right;
+  display: table-cell;
+}
+
+.eq-height {
+  padding-bottom: 15px;
+  display: table;
+}
