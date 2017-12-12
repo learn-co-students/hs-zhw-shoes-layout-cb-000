@@ -23,5 +23,36 @@
 }
 
 /* Posititoning Classes */
+.shadow {
+  margin-bottom: 18px;
+}
+.row {
+  width: 100%;
+  margin: 0 auto 18px;
+  display: flex;
+  padding: 0;
+}
 
+.row-1, .row-2 {
+  float: left;
+  display: inline;
+}
 
+/********** Row 1 **********/
+.row-1.col-1 {
+  width: 66%;
+}
+
+.row-1.col-2 {
+  width: 32%;
+  margin-left: 2%;
+}
+/********** Row 2 **********/
+.row-2, #details div.wrapper div {
+  width: 32%;
+  margin-left: 2%;
+}
+
+.row-2.col-1, #details div.wrapper div.col-1 {
+  margin-left: 0%;
+}
