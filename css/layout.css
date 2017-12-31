@@ -9,43 +9,30 @@
   -moz-box-sizing: border-box;
 }
 
-.clearfix:after {
-  content: ".";
-  display: block;
-  clear: both;
-  visibility: hidden;
-  height: 0;
-  line-height: 0;
-}
-
-.clear {
-  clear: both;
-}
-
 /* Posititoning Classes */
 
-.col-1large {
-  float: left;
-  width: 64%;
-}
+  .row {
+    clear: both;
+    margin-bottom: 2%;
+  }
 
-.col-1 {
-  float: left;
-  width: 31%;
-  margin-right: 2%
-}
+  .row:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+    line-height: 0;
+  }
 
-.col-2 {
-  float: left;
-  width: 31%;
-}
+  [class*="col-"] {
+    float: left;
+    margin-left: 2%;
+  }
 
-.col-3 {
-  float: left;
-  width: 31%;
-  margin-left: 2%;
-}
+  [class*="col-"]:first-child {
+    margin-left: 0;
+  }
 
-.first {
-  margin-left: 0%;
-}
+  .col-4 { width: 32%; }
+  .col-8 { width: 66%; }
