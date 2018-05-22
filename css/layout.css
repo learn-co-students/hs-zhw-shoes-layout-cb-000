@@ -56,17 +56,3 @@ section{
     float: left;
     width: 32%;
 }
-
-#middle{
-    block: inline;
-    float: right;
-
-    width: 31.333%;
-}
-
-#right{
-    block: inline;
-    float: right;
-
-    width: 31.333%;
-}
