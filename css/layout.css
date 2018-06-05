@@ -24,4 +24,35 @@
 
 /* Posititoning Classes */
 
+section{
+    margin-left: 2%;
+}
 
+.first{
+    margin-left: 0%;
+}
+
+#holiday{
+    margin: 0px 0px 10px 0px;
+}
+
+#summer {
+    block: inline-block;
+    width: 66%;
+    float: left;
+    margin-bottom: 10px;
+
+}
+
+#archive {
+    block: inline-block;
+    width: 32%;
+    float: right;
+    margin-bottom: 10px;
+}
+
+.col{
+    block: inline;
+    float: left;
+    width: 32%;
+}
