@@ -264,6 +264,11 @@ section a {
   text-decoration: underline;
 }
 
+/********** Tiles **********/
+.tile {
+  margin: 10px;
+}
+
 /********** Details **********/
 
 #details {

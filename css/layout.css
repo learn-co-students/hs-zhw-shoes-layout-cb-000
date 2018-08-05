@@ -23,5 +23,33 @@
 }
 
 /* Posititoning Classes */
+#first_feature {
+  width:62%;
+  display: block;
+  float: left;
+}
 
+#archive {
+  width: 32%;
+    display: block;
+    float: right;
+}
 
+.col-1 {
+  width:29%;  
+  display:inline-block;
+  float:left;
+
+}
+
+.col-2 {
+  width:29%;
+  display:inline-block;
+  float:left;
+  }
+
+.col-3 {
+  width:29%;
+  display:inline-block;
+  float:left;
+}
