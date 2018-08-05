@@ -23,5 +23,17 @@
 }
 
 /* Posititoning Classes */
+.col-2 {
+  display: block;
+  width: 480px;
+  margin: 0px;
+  float: left;
+  height: 600px;
+  overflow: auto;
+}
 
-
+.col-3 {
+  display: inline-flex;
+  justify-content: center;
+  margin: 10px;
+}
