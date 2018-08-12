@@ -24,4 +24,27 @@
 
 /* Posititoning Classes */
 
+.bigcol {
+  float:left;
+  width: 65.666%;
+  margin-bottom: 3%;
+}
 
+.col-1 {
+  float: left;
+  width: 31.333%;
+  margin-left:3%;
+}
+
+.first {
+  margin-left: 0%;
+}
+
+.fixed-size {
+  width: 1000px;
+}
+
+.archive {
+  margin-bottom: 3%;
+  height: 610px;
+}
