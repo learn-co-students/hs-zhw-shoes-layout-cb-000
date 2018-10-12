@@ -252,6 +252,40 @@ a.gplus:active { background-position: -80px -80px; }
   padding: 30px 0;
 }
 
+/********** Columns **********/
+
+.featured {
+	width: 66%;
+	float: left;
+}
+
+.archive {
+	width: 33%;
+	float: right;
+}
+
+.deals{
+	clear: both;
+	padding: 10px 0px 0px 0px;
+}
+
+.deal {
+	width: 33%;
+	display: inline-block;
+	float left:
+	padding:0px 5px 0px 5px; 
+}
+
+.clearfix:after {
+	content: ".";
+    display: hidden;
+}
+
+#details .wrapper > * {
+	display: inline-block;
+	width: 33%
+}
+
 /********** Sections **********/
 
 section {
