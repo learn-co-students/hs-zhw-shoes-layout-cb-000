@@ -24,4 +24,31 @@
 
 /* Positioning Classes */
 
+#details {
+  column-count: 3;
+  align-content: center;
+}
 
+#bottom {
+  background: linear-gradient(to bottom, rgba(229,229,229,1) 0%,rgba(255,255,255,1) 99%);
+}
+
+#featured {
+  float: left;
+  display: inline-block;
+  width: 66.2%;
+  height: auto;
+}
+
+#list {
+  float: right;
+  display: inline-block;;
+  width: 32%;
+  height: auto;
+  font-size: 98.7%;
+}
+
+.low {
+  margin-top: 20px;
+  column-count: 3;
+}
