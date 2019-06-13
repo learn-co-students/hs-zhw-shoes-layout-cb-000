@@ -24,4 +24,46 @@
 
 /* Positioning Classes */
 
+#featuredbrands {
+  float: left;
+  width: 66.25%;
+  margin-bottom: 15px;
+}
+
+#featuredbrands figure {
+  width: 100%;
+}
+
+#archivelist {
+  float: right;
+  width: 32.5%;
+  padding-bottom: 26px;
+}
+
+#deals {
+  display: inline-block;
+  margin-top: -2px;
+}
+
+.col-1 {
+  float: left;
+  width: 32.5%;
+  margin-right: 10px;
+}
+
+.col-2 {
+  float: left;
+  width: 32.5%;
+  margin-left: 2px;
+}
+
+.col-3 {
+  float: right;
+  width: 32.5%;
+}
+
+.first {
+  margin-left: 0%;
+}
+
 
