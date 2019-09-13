@@ -23,5 +23,36 @@
 }
 
 /* Positioning Classes */
+img, video, audio {
+  max-width:100%;
+}
+.col-1 {
+  float: left;
+  width: 64%;
+  margin: 0 10px 0 0;
 
 
+}
+.Archive {
+ float: left;
+ width: 31%;
+ margin: 0 0 10px 9px;
+}
+
+.col-2 {
+  float: left;
+  width: 31%;
+
+}
+
+.col-3 {
+  float: left;
+  width: 32%;
+}
+
+[class*='col-'] {
+  margin-left: 2%;
+  /*margin-bottom: %;*/
+  height:100%;
+  min-height: 100%;
+}
